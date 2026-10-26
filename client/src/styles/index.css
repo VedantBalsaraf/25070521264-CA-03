@@ -1,0 +1,13 @@
+/* 1. Tailwind engine (preflight + utilities) */
+@import 'tailwindcss';
+
+/* 2. Tailwind design tokens. Must load before component styles so the
+      generated utilities exist for the classes used in JSX. */
+@import './tailwind.css';
+
+/* 3. Project styles. Loaded after Tailwind so they can refine the base layer. */
+@import './global.css';
+@import './animations.css';
+@import './components.css';
+@import './pages.css';
+@import './glass-theme.css';

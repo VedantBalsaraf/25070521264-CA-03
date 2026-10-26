@@ -1,0 +1,43 @@
+{
+  "name": "BorrowCircles",
+  "short_name": "BorrowCircles",
+  "description": "Share more, buy less. Campus community for lending and borrowing items sustainably.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "lifestyle", "productivity"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Explore Items",
+      "short_name": "Explore",
+      "description": "Browse items shared by your campus community",
+      "url": "/explore",
+      "icons": [{ "src": "/favicon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Share an Item",
+      "short_name": "Share",
+      "description": "List an item you want to share",
+      "url": "/share",
+      "icons": [{ "src": "/favicon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "My Dashboard",
+      "short_name": "Dashboard",
+      "description": "View your borrowing dashboard",
+      "url": "/dashboard",
+      "icons": [{ "src": "/favicon.svg", "sizes": "192x192" }]
+    }
+  ]
+}
